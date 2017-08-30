@@ -2,7 +2,7 @@
 这个是bitmap裁剪，缩放等操作。使用的时候很方便。
 
 
-###使用的时候直接复制对应的方法即可，有个按比例缩放的方法，你需要传入缩放的比例
+### 使用的时候直接复制对应的方法即可，有个按比例缩放的方法，你需要传入缩放的比例
 ```Java
  public static Bitmap appointCrop( Bitmap toCrop, int width, int height,float corpScale) {
         if(toCrop == null) {
@@ -36,4 +36,4 @@
     }
     
 ```
-*这个是Glide的代码，我只是简单更改了一下
+* 这个是Glide的代码，我只是简单更改了一下
